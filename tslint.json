@@ -1,0 +1,10 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "typedef": false,
+        "no-duplicate-key": true,
+        "no-trailing-comma": true,
+        "no-unreachable": true,
+        "use strict": true
+    }
+}
