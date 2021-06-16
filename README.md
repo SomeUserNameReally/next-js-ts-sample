@@ -1,6 +1,6 @@
 This is a do over of Vercel's tutorial on Next in TypeScript and a few other helpful things like linting and formatting.
 
-TODO: Remove tslint since eslint is present and the former is deprecated. 
+TODO: Maybe remove tslint since eslint is present and the former is deprecated if it was not auto generated. 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
