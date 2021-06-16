@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Head } from "../components/Head";
 import { Layout } from "../components/Layout";
 import utilStyles from "../styles/utils.module.css";
-import { AllPostsDataStaticProps } from "../interfaces/pages";
+import { AllPostsDataStaticProps } from "../typings/pages";
 import { NextPage } from "next";
 import { Date } from "../components/Date/Date";
 

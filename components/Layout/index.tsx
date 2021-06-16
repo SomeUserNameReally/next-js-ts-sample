@@ -8,7 +8,7 @@ import { PropsWithChildren } from "react";
 import {
   LayoutHeadProp,
   LayoutPageOrigin,
-} from "../../interfaces/components/Layout";
+} from "../../typings/components/Layout";
 
 interface Props {
   home?: boolean;
@@ -30,7 +30,7 @@ const Layout: React.FC<PropsWithChildren<Props>> = ({
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
-              defaultHeadProps.title
+            defaultHeadProps.title
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
         <meta name="og:title" content={defaultHeadProps.title} />

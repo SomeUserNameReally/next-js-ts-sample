@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import { Layout } from "../../components/Layout";
-import { LayoutHeadProp } from "../../interfaces/components/Layout";
-import { PostsGetStaticPropsData } from "../../interfaces/pages/posts";
+import { LayoutHeadProp } from "../../typings/components/Layout";
+import { PostsGetStaticPropsData } from "../../typings/pages/posts";
 
 const head: LayoutHeadProp = {
   title: "All posts",

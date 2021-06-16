@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import { Date } from "../../components/Date/Date";
 import { Head } from "../../components/Head";
 import { Layout } from "../../components/Layout";
-import { GetIdStaticPropsValues } from "../../interfaces/pages/posts/[id]";
+import { GetIdStaticPropsValues } from "../../typings/pages/posts/[id]";
 
 import utilStyles from "../../styles/utils.module.css";
 

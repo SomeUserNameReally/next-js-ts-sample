@@ -6,7 +6,7 @@ import {
   GetAllPostsIdsValues,
   GetPostDataValues,
   SortedPostsData,
-} from "../interfaces/lib/posts";
+} from "../typings/lib/posts";
 import remark from "remark";
 import html from "remark-html";
 

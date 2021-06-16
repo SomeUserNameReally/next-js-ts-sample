@@ -1,4 +1,4 @@
-import { AllPostsDataStaticProps } from "../../../interfaces/pages";
+import { AllPostsDataStaticProps } from "../../../typings/pages";
 import { getSortedPostsData } from "../../../lib/posts";
 
 export async function getStaticProps(): Promise<{

@@ -1,6 +1,9 @@
 import { GetStaticPropsResult } from "next";
-import { GetAllPostsIdsValues, GetPostDataValues } from "../../../../interfaces/lib/posts";
-import { GetIdStaticPathsValues } from "../../../../interfaces/pages/posts/[id]";
+import {
+  GetAllPostsIdsValues,
+  GetPostDataValues,
+} from "../../../../typings/lib/posts";
+import { GetIdStaticPathsValues } from "../../../../typings/pages/posts/[id]";
 import { getPostData, getAllPostIds } from "../../../../lib/posts";
 
 export async function getStaticProps({
